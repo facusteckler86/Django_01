@@ -19,7 +19,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/6.1/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
+# SECURITY WARNING: Importante no compartir, colocar en .gitignore
 SECRET_KEY = 'django-insecure-+8isy)b62vm&!a#bqgv@8k^5)i9smh5z+aodkt3!$e$158eu#@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
@@ -102,9 +102,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/6.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'es'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Argentina/Buenos Aires'
 
 USE_I18N = True
 
